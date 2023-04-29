@@ -1,0 +1,997 @@
+@charset "UTF-8";
+
+/*
+Para dispositivos móveis – 320px — 768px
+Laptops e telas pequenas – 769px – 1024px
+Telas grandes e desktops – 1025px — 1200px
+TV e telas extragrandes – 1201px e mais
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@media screen and (min-width: 769px) and (max-width: 1024px) { /*laptops e tela pequenas*/
+    .material-symbols-outlined{
+        margin-left: 5vw;
+    
+    }
+
+    nav#navheader{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo_braw{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 580px;
+        height: 120px;
+    }
+
+    button{
+        margin-bottom: 20px;
+    }
+
+    video#video-bg{
+        position: absolute;
+        min-width: 100vw;
+        width: 180vw;
+        height: 110vh;
+    }
+
+    h1{
+        font-size: 52px;
+    }
+
+    section#News{
+        top: 15vh;
+    }
+
+    article.test_grid_container{
+        display: grid;
+    }
+
+    a#img-1, a#img-2, a#img-3, a#img-4{
+        width: 200px;
+        margin-left: 25%;
+    }
+
+    img.img_news, .img-1-2-3{
+       width: 500px; 
+    }
+
+    /*h2, p.color_font, p.descriçao*/ .container_text_news{
+        margin-left: 21.7%;
+        width: 550px;
+    }
+
+    div#container_h2_news-1, div#container_h2_news-2, div#container_h2_news-3, div#container_h2_news-4{
+        width: 495px;
+    }
+
+    .container_data_p_news{
+        width: 500px;
+    }
+
+    .data-p-news{
+        margin-left: -70px;
+        margin-right: none;
+        text-align: left;
+    }
+
+    #data-p-news-1{
+        position: relative;
+        right: 25px;
+        margin-right: 100px;
+    }
+
+    #data-p-news-2{
+        margin-right: 153px;
+    }
+
+    #data-p-news-3, #data-p-news-4{
+        margin-right: 150px;
+    }
+
+    .container_p_news p{
+        width: 380px; 
+    }
+
+    p{
+        margin-left: 40px;
+    }
+
+    p#descriçao-1, p#descriçao-2, p#descriçao-3, p#descriçao-4{
+        margin-left: 3.9vw;
+    }
+
+    img#thumbnail_mobile{
+        width: 550px;
+    }
+
+    .img-1-2-3{
+        padding: 1px;
+        margin-bottom: 10px;
+    }
+
+    #bottom-test-img3{
+        margin-bottom: 115px;
+    }
+
+    div#background_darkblue{
+        height: 675px;
+    }
+
+    #VD-trailer{
+        width: 580px;
+        height: 300px;
+    }
+
+    section#container_community{
+        height: 75vh;
+    }
+
+    li.li-footer {
+        left: -50px;
+        font-size: 19.5px;
+    }
+
+    p#footer-direitos {
+        font-size: 16px;
+    }
+
+    img.faixa-etaria {
+        margin: 15px 5px 10px 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { /*Tela grande e desktop*/
+    html, body{
+        height: 5vh;
+    }
+
+    #main-header{
+        background-color: #0E3E5B;
+    }
+
+    img#icon_braw{
+        left: 2vw;
+        width: 60px;
+        height: 45px;
+    }
+
+    nav#navheader{
+        display: grid;
+        grid-template-columns: 60px 120px 60px 97px 120px 120px 80px 100px;
+        top: 5vh;
+        left: 25vw;
+
+        /*Só estão aqui por causa da config global*/
+        width: 0%;
+        line-height: 0px;
+        padding: 0px;
+    }
+    
+    #navheader, header{
+        position: fixed;
+    }
+
+    .container_ul_header{
+        background-color: rgba(0, 0, 0, 0);
+        width: 20vw;
+        margin-left: 0px;
+    }
+
+    ul.ul-header, p#playnow{
+        border-bottom: 0px solid rgba(0, 0, 0, 0);
+        font-size: 17px;
+    }
+
+    #mod-sup{ /*modifica o "suporte", do menu*/
+        margin-left: -1.5vw;
+    }
+  
+    #mod-com{ /*modifica o "community, do menu"*/
+        margin-left: -1vw;
+    }
+
+    .container_li_header{
+        height: 100vh;
+        display: none;
+        margin-top: 10vh;
+    }
+
+    .container_li_header li a{
+        font: 600 16px/14px 'Lato', sans-serif;
+    }
+
+    .container_li_header li a:hover{
+       animation: changeColors 3s infinite;
+    }
+
+    .container_li_header li:hover{
+        margin-bottom: 1.2vh;
+        padding-top: 4px;
+        background-color: #1d577b4d;
+        border-radius: 5px;
+    }
+
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 100%;
+        }
+        
+    }
+
+    #nav-game-hover:hover div#div1-test{
+        display: grid;
+        width: 190px;
+        height: 140px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 2px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-BattlePass-hover:hover div#div2-test{
+        display: grid;
+        width: 230px;
+        height: 85px;
+        grid-template-rows: 30px 30px 30px;
+        position: absolute;
+        left: 62px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-news-hover:hover div#div3-test{
+        display: grid;
+        width: 200px;
+        height: 80px;
+        grid-template-rows: 30px 30px 30px;
+        position: absolute;
+        left: 181.5px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-esports-hover:hover div#div4-test{
+        display: grid;
+        width: 280px;
+        height: 180px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 241.8px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-community-hover:hover div#div5-test{
+        display: grid;
+        width: 220px;
+        height: 90px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 327.8px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-support-hover:hover div#div6-test{
+        display: grid;
+        width: 220px;
+        height: 30px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 442px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    @keyframes changeColors {
+        0% {
+            color: #fcf699;
+        }
+
+        50% {
+            color: #fdf472;
+        }
+
+        100% {
+            color: #F6EC53;
+        }
+    }
+
+    .a-ul-header:hover{
+        animation: changeColors 3s infinite;
+    }
+    
+    #a-playnow:hover{
+        animation: changeColors 3s infinite;
+    }
+
+    .a-ul-header:hover, #a-playnow:hover{
+        box-shadow: 0px 6.5px 0px 11px #7FD1DF;
+        background-color: #7FD1DF;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-shadow: 0px 0px 7px black;
+    }
+
+    #container_playnow{
+        position: relative;
+        top: -2.3vh;
+        margin-bottom: 0px;
+        border-bottom: 0px solid rgba(0, 0, 0, 0);
+    }
+
+    p#playnow{
+        margin-bottom: 0px;
+        font-weight: 500;
+        margin-left: -2vw;
+    }
+
+    .material-symbols-outlined{
+        display: none;
+    }
+
+    #container_icon_twitter, #container_icon_YT{
+        display: inline;
+        border: none;
+        margin-left: -3vw;
+    }
+
+    #container_icon_YT{
+        margin-left: 10px;
+    }
+
+    .img-header-icons{
+        position: relative;
+        top: -3vh;
+        width: 38px;
+        height: 38px;
+    }
+
+    .logo_braw{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 80px;
+        width: 880px;
+        height: 180px;
+    }
+
+    button{
+        margin-bottom: 20px;
+    }
+
+    video#video-bg{
+        position: absolute;
+        min-width: 100vw;
+        width: 157vw;
+        height: 120vh;
+    }
+
+    section#News{
+        top: 26vh;
+    }
+
+    article.test_grid_container{
+        display: grid;
+    }
+
+    a#img-1, a#img-2, a#img-3{
+        text-align: start;
+        margin-left: 50px;
+    }
+
+    article#article-absol-news1, article#article-absol-news2{
+        position: absolute;
+        margin-left: 4.5vw;
+        top: 5.5vh;
+    }
+
+    article#article-absol-news2{
+        margin-left: 10vw;
+    }
+
+    article#article-absol-news3{
+        display: none; 
+    }
+
+    article#article-absol-news1{
+        left: 28%;
+    }
+
+    article#article-absol-news2{
+        left: 55%;
+    }
+
+    img.img_news{
+        display: inline;
+        width: 300px;
+        padding-right: 80px;
+    }
+
+    .container_text_news{
+        width: 348px;
+    }
+
+    h2, p, p.descriçao{
+        padding-left: 10px;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+
+    div#container_h2_news-1, div#container_h2_news-2, div#container_h2_news-3{
+        width: 500px;
+        display: inline;
+        position: relative;
+        top: -10px;
+    }
+
+    .container_data_p_news{
+        width: 500px;
+    }
+
+    .data-p-news{
+        margin-left: -70px;
+        margin-right: none;
+        text-align: left;
+    }
+
+    #data-p-news-1{
+        margin-right: 137px;
+    }
+
+    #data-p-news-2{
+        margin-right: 134px;
+    }
+
+    #data-p-news-3{
+        margin-right: 133px;
+    }
+    
+    .container_p_news p{
+        width: 320px; 
+    }
+
+    p.descriçao{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    p#descriçao-1, p#descriçao-2, p#descriçao-3, p#descriçao-4{
+        margin-left: 3.5vw;
+    }
+
+    button#view-more-news-id{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    button.button_news{
+        top: 18vh;
+    }
+
+    img#thumbnail_mobile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 370px;
+        width: 370px;
+        left: 40px;
+    }
+
+    img.img-1-2-3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width: 450px;
+    }
+
+    img#bottom-test-img1, img#bottom-test-img2{
+        margin-bottom: 7px;
+    }
+
+    img#bottom-test-img3{
+        margin-bottom: 33vh;
+    }
+
+    div#background_darkblue{
+        height: 800px;
+    }
+
+    div#background_darkblue #VD-trailer{
+        width: 480px;
+        height: 280px;
+    }
+
+    div#background_darkblue h2{
+        font-size: 2em;
+    }
+
+    div#background_darkblue p{
+        font-size: 16px;
+    }
+
+    div#background_darkblue img#img-queenNai, img#img-orion{
+        display: inline;
+        position: absolute;
+        top: 47px;
+        left: 1vw;
+        margin-left: 20px;
+        width: 245px;
+        height: 300px;
+    }
+    
+    div#background_darkblue img#img-orion{
+        top: 75px;
+        left: 73vw;
+        margin-left: 0;
+        width: 285px;
+        height: 167px;
+    }
+
+    #imagen-legends{
+        display: none;
+        position: absolute;
+        top: 228em;
+        left: 19.1vw;
+    }
+
+    footer p#footer-cookies{
+        margin-left: 40px;
+    }
+    
+    footer img#georgia-logo, div#container_plataforms, div#container_F-E{
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+
+    footer div p{
+        margin-left: 150px;
+    } 
+} /*feito*/
+
+@media screen and (min-width: 1201px){ /*TV*/
+    #main-header{
+        background-color: #0E3E5B;
+    }
+
+    img#icon_braw{
+        left: 2vw;
+        width: 60px;
+        height: 45px;
+    }
+
+    nav#navheader{
+        display: grid;
+        grid-template-columns: 80px 140px 80px 115px 135px 115px 110px 100px 800px;
+        top: 5vh;
+        left: 18%;
+
+        /*Só estão aqui por causa da config global*/
+        width: 0%;
+        line-height: 0px;
+        padding: 0px;
+    }
+    
+    #navheader, header{
+        position: fixed;
+    }
+
+    .container_ul_header{
+        background-color: rgba(0, 0, 0, 0);
+        width: 20vw;
+        margin-left: 0px;
+    }
+
+    ul.ul-header, p#playnow{
+        border-bottom: 0px solid rgba(0, 0, 0, 0);
+        font-size: 17px;
+    }
+
+    #mod-sup{ /*modifica o "suporte", do menu*/
+        margin-left: -1.5vw;
+    }
+  
+    #mod-com{ /*modifica o "community, do menu"*/
+        margin-left: -1vw;
+    }
+
+    .container_li_header{
+        height: 100vh;
+        display: none;
+        margin-top: 10vh;
+    }
+
+    .container_li_header li a{
+        font: 600 16px/14px 'Lato', sans-serif;
+    }
+
+    .container_li_header li a:hover{
+       animation: changeColors 3s infinite;
+    }
+
+    .container_li_header li:hover{
+        margin-bottom: 1.2vh;
+        padding-top: 4px;
+        background-color: #1d577b4d;
+        border-radius: 5px;
+    }
+
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 100%;
+        }
+        
+    }
+
+    #nav-game-hover:hover div#div1-test{
+        display: grid;
+        width: 190px;
+        height: 140px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 2px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-BattlePass-hover:hover div#div2-test{
+        display: grid;
+        width: 230px;
+        height: 85px;
+        grid-template-rows: 30px 30px 30px;
+        position: absolute;
+        left: 81.8px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-news-hover:hover div#div3-test{
+        display: grid;
+        width: 200px;
+        height: 80px;
+        grid-template-rows: 30px 30px 30px;
+        position: absolute;
+        left: 222.5px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-esports-hover:hover div#div4-test{
+        display: grid;
+        width: 280px;
+        height: 180px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 302.2px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-community-hover:hover div#div5-test{
+        display: grid;
+        width: 220px;
+        height: 90px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 404.8px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+    
+    #nav-support-hover:hover div#div6-test{
+        display: grid;
+        width: 220px;
+        height: 30px;
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        position: absolute;
+        left: 533.4px;
+        padding: 22px;
+        margin-top: 4.3vh;
+        background-color: #556B87;
+        border-top: 3px solid #7FD1DF;
+        animation: opacity 1s;
+    }
+
+    @keyframes changeColors {
+        0% {
+            color: #fcf699;
+        }
+
+        50% {
+            color: #fdf472;
+        }
+
+        100% {
+            color: #F6EC53;
+        }
+    }
+
+    .a-ul-header:hover{
+        animation: changeColors 3s infinite;
+    }
+    
+    #a-playnow:hover{
+        animation: changeColors 3s infinite;
+    }
+
+    .a-ul-header:hover, #a-playnow:hover{
+        box-shadow: 0px 6.5px 0px 11px #7FD1DF;
+        background-color: #7FD1DF;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        text-shadow: 0px 0px 7px black;
+    }
+
+    #container_playnow{
+        position: relative;
+        top: -2.3vh;
+        margin-bottom: 0px;
+        border-bottom: 0px solid rgba(0, 0, 0, 0);
+    }
+
+    p#playnow{
+        margin-bottom: 0px;
+        font-weight: 500;
+        margin-left: -2vw;
+    }
+
+    .material-symbols-outlined{
+        display: none;
+    }
+
+    #container_icon_twitter, #container_icon_YT{
+        display: inline;
+        border: none;
+        margin-left: -3vw;
+    }
+
+    #container_icon_YT{
+        margin-left: 10px;
+    }
+
+    .img-header-icons{
+        position: relative;
+        top: -3vh;
+        width: 38px;
+        height: 38px;
+    }
+
+    .logo_braw{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        top: 80px;
+        width: 880px;
+        height: 180px;
+    }
+
+    button{
+        margin-bottom: 20px;
+    }
+
+    video#video-bg{
+        position: absolute;
+        min-width: 100vw;
+        width: 157vw;
+        height: 120vh;
+    }
+
+    section#News{
+        top: 26vh;
+    }
+
+    article.test_grid_container{
+        display: grid;
+    }
+
+    a#img-1, a#img-2, a#img-3, a#img-4{
+        display: inline;
+        text-align: start;
+        margin-left: 70px;
+    }
+
+    article#article-absol-news1, article#article-absol-news2, article#article-absol-news3{
+        position: absolute;
+        top: 5.3vh;
+    } 
+
+    article#article-absol-news1{
+        left: 280px;
+    }
+
+    article#article-absol-news2{
+        left: 560px;
+    }
+
+    article#article-absol-news3{
+        left: 840px;
+    }
+
+    img.img_news{
+        display: inline;
+        width: 270px;
+        padding-right: 80px;
+    }
+
+    .container_text_news{
+        width: 348px;
+    }
+
+    h2, p, p.descriçao{
+        padding-left: 30px;
+    }
+
+    div#container_h2_news-1, div#container_h2_news-2, div#container_h2_news-3, div#container_h2_news-4{
+        width: 500px;
+        display: inline;
+        position: relative;
+        top: -10px;
+    }
+
+    h2{
+        font-size: 17px;
+    }
+
+    .container_data_p_news {
+        width: 530px;
+    }
+
+    .data-p-news{
+        margin-left: -70px;
+        margin-right: none;
+        text-align: left;
+    }
+
+    .container_data_p_news #data-p-news-1{
+        width: 200px;
+    }
+
+    #data-p-news-1{
+        margin-right: 215px;
+    }
+
+    #data-p-news-2{
+        margin-left: -200px;
+    }
+
+    /*#data-p-news-3{}*/
+
+    #data-p-news-4{
+        margin-left: 3px;
+        margin-right: none;
+    }
+
+    .container_p_news p{
+        width: 280px; 
+    }
+        
+    p.descriçao{
+        font-size: 15px;
+        margin-left: 40px;
+    }
+
+    p#descriçao-1, p#descriçao-2, p#descriçao-3, p#descriçao-4{
+        margin-left: 3.2vw;
+    }
+    
+    button.button_news{
+        top: 18vh;
+    }
+
+    img#thumbnail_mobile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 370px;
+        width: 370px;
+        left: 40px;
+    }
+
+    img#bottom-test-img3{
+        margin-bottom: 190px;
+    }
+
+    div#background_darkblue{
+        height: 800px;
+    }
+
+    div#background_darkblue #VD-trailer{
+        width: 610px;
+        height: 320px;
+    }
+
+    div#background_darkblue h2{
+        font-size: 2em;
+    }
+
+    div#background_darkblue p{
+        font-size: 16px;
+    }
+
+    div#background_darkblue img#img-queenNai, img#img-orion{
+        display: inline;
+        position: absolute;
+        top: 35px;
+        left: -2px;
+        width: 300px;
+        height: 320px;
+    }
+
+    div#background_darkblue img#img-orion{
+        top: 45px;
+        left: 915px;
+        width: 310px;
+        height: 185px;
+    }
+
+    #imagen-legends{
+        display: block;
+        position: absolute;
+        top: 228em;
+        left: 19.1vw;
+    }
+
+    footer p#footer-cookies{
+        margin-left: 40px;
+    }
+    
+    footer img#georgia-logo, div#container_plataforms, div#container_F-E{
+        margin-top: 10px;
+        margin-left: 465px;
+    }
+
+    footer div p{
+        margin-left: 175px;    
+    }
+} /*feito*/

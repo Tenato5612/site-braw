@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="game, F2P, multiplataforma, cross-play, Xbox, Nintendo-Switch, PS4, PS5, PC">
+    <meta name="description" content="Queue ranked or play with your friends on Playstation, Xbox, PC, Nintendo Switch & Mobile via cross-play, F2P.">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/MediaQuerie.css">
+    <title>Brawlhalla - The Free To Play Fighting Game</title>
+</head>
+<body>
+    <header id="main-header">
+        <div id="container_blue_line">
+            <a href="https://www.brawlhalla.com/"><img src="imagens/icone_braw.png" id="icon_braw" alt=""></a>
+            <span class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        </div>
+        <menu id="opçoes">
+            <nav id="navheader">
+                <div id="nav-game-hover">
+                    <div class="container_ul_header">
+                        <ul class="ul-header"><a href="https://www.brawlhalla.com/about/" class="a-ul-header">GAME</a>
+                    </div>
+                            <div class="container_li_header" id="div1-test">
+                                <li class="li-nav-header">
+                                    <a href="https://www.brawlhalla.com/about/">About</a>
+                                </li>
+                                <li class="li-nav-header">
+                                    <a href="https://www.brawlhalla.com/legends/">Legends</a>
+                                </li>
+                                <li class="li-nav-header">
+                                    <a href="https://www.brawlhalla.com/crossovers">Crossovers</a>
+                                </li>
+                                <li class="li-nav-header">
+                                    <a href="https://www.brawlhalla.com/wallpapers/">Wallpapers</a>
+                                </li>
+                                <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/presskit">Press Kit</a>
+                                </li>
+                            </div>
+                        </ul>
+                </div>
+                   <!-- <div class="container_li_header">
+                        <li class="li-nav-header">
+                            <a href="https://www.brawlhalla.com/about/">About</a>
+                        </li>
+                        <li class="li-nav-header">
+                            <a href="https://www.brawlhalla.com/legends/">Legends</a>
+                        </li>
+                        <li class="li-nav-header">
+                            <a href="https://www.brawlhalla.com/crossovers">Crossovers</a>
+                        </li>
+                        <li class="li-nav-header">
+                            <a href="https://www.brawlhalla.com/wallpapers/">Wallpapers</a>
+                        </li>
+                        <li class="li-nav-header">
+                            <a href="https://www.brawlhalla.com/presskit">Press Kit</a>
+                        </li>
+                    </div> -->
+                <div id="nav-BattlePass-hover">
+                    <div class="container_ul_header">
+                        <ul class="ul-header">
+                            <a href="https://www.brawlhalla.com/battlepass" class="a-ul-header">BATTLE PASS</a>
+                        </ul>
+                    </div>
+                        <div class="container_li_header" id="div2-test">
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/battlepass">Seanson Seven</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/battle-pass-faq/">Battle Passs FAQ</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/battle-pass-classic-faq/">Battle Pass Classic FAQ</a>
+                            </li>
+                        </div>
+                </div>
+                <div id="nav-news-hover">
+                    <div class="container_ul_header">
+                        <ul class="ul-header">
+                            <a href="https://www.brawlhalla.com/news/" class="a-ul-header">NEWS</a>
+                        </ul>
+                    </div>
+                        <div class="container_li_header" id="div3-test">
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/news/">Brawlhalla</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/news/patch-notes">Patch Notes</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/test-features/">Test Features</a>
+                            </li>
+                        </div>
+                </div>
+                <div id="nav-esports-hover">
+                    <div class="container_ul_header">
+                        <ul class="ul-header">
+                            <a href="https://www.brawlhalla.com/esports/" class="a-ul-header">ESPORTS</a>
+                        </ul>
+                    </div>
+                        <div class="container_li_header" id="div4-test">
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/esports/">Brawlhalla Esports</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/schedule/">Esports Schedule</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.smash.gg/brawlhalla">Tournaments</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/rankings/power">Power Ranking</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://prostats.brawlhalla.com/">Pro Players Stats</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/news/viewership-rewards-faq/" id="VRFAQ-marginB">Viewership Rewards FAQ</a>
+                            </li>
+                        </div>
+                </div>
+                <div id="nav-community-hover">
+                    <div class="container_ul_header">
+                        <ul class="ul-header">
+                            <a href="https://www.brawlhalla.com/community/" class="a-ul-header" id="mod-com">COMMUNITY</a>
+                        </ul>
+                    </div>
+                        <div class="container_li_header" id="div5-test">
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/news/official-brawlhalla-merch-is-here/">Brawlhalla Merch</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/schedule/">Stream Schedule</a>
+                            </li>
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/rankings/">Global Ranking</a>
+                            </li>
+                        </div>
+                </div>
+                <div id="nav-support-hover">
+                    <div class="container_ul_header">
+                        <ul class="ul-header">
+                            <a href="https://www.brawlhalla.com/support" class="a-ul-header" id="mod-sup">SUPPORT</a>
+                        </ul>
+                    </div>
+                        <div class="container_li_header" id="div6-test">
+                            <li class="li-nav-header">
+                                <a href="https://www.brawlhalla.com/support">Custumer Supporter</a>
+                            </li>
+                        </div>
+                </div>
+                <div id="container_playnow">
+                    <p id="playnow"><a href="https://www.brawlhalla.com/play/" id="a-playnow">PLAY NOW</a></p>
+                </div>
+
+                <div class="container_icons_menu">
+                    <div id="container_icon_twitter">
+                        <a href="https://twitter.com/brawlhalla">
+                            <img src="imagens/icon-twitter-black.png" class="img-header-icons" alt="">
+                        </a>
+                    </div>
+                    <div id="container_icon_YT">
+                        <a href="https://www.youtube.com/brawlhalla">
+                            <img src="imagens/icon-YT-black.png" class="img-header-icons" alt="">
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </menu>
+    </header>
+    <main>
+        <section id="container_download">
+            <div id="container_logo_braw">
+                <img src="imagens/Logo_Brawlhalla.png" class="logo_braw" alt="">
+               <!-- <p id="pls"><img src="imagens/Logo_Brawlhalla.png" class="logo_braw" alt=""></p> -->
+            </div>
+            <button><a href="https://www.brawlhalla.com/play/">PLAY FREE NOW</a></button>
+        </section>
+
+        <!-- Conteudo -->
+
+        <section id="News">
+            <h1 style="color: rgb(17, 17, 66);">RECENT NEWS</h1>
+            <article class="test_grid_container">
+                <a href="https://www.brawlhalla.com/news/valhallentines-2023-begins-today-patch-7-03/" id="img-1">
+                    <img src="imagens/Valentine-2023-patch7.03.jpg" class="img_news" alt="">
+                </a>
+                    <div class="container_text_news">
+                        <div id="container_h2_news-1">
+                            <h2>
+                                <a href="https://www.brawlhalla.com/news/valhallentines-2023-begins-today-patch-7-03/"
+                                class="color_font">Valhallentine’s 2023 Begins Today! – <br> Patch 7.03
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="container_data_p_news">
+                            <p class="data-p-news" id="data-p-news-1">
+                                Feb 8, 2023 | <a href="https://www.brawlhalla.com/news/categoryweekly-rotation/" class="color_font">Patch Notes, Weekly Rotation</a>
+                            </p>
+                        </div>
+                        <div class="container_p_news">
+                            <p class="descriçao" id="descriçao-1">
+                                Love is in the air! Valhallentine’s 2023 begins with an all <br>
+                                new Val Skin, Lovestruck 2023 Podium, “Brawlentine” Title <br>
+                                reward at login, and many more exclusive items like 15 <br>
+                                other seasonal Skins. Collect all the Valentine treats by <br>
+                                following the candy hearts in...
+                            </p>
+                        </div>
+                    </div>
+            </article>
+            <article class="test_grid_container" id="article-absol-news1">
+                <a href="https://www.brawlhalla.com/news/beware-the-dice-roll-in-gamemasters-doom-pvp/" id="img-2">
+                    <img src="imagens/DiceRoll-pvp.jpg" class="img_news" alt="">
+                </a>
+                <div class="container_text_news">
+                    <div id="container_h2_news-2">
+                        <h2>
+                            <a href="https://www.brawlhalla.com/news/beware-the-dice-roll-in-gamemasters-doom-pvp"
+                            class="color_font">Beware the Dice Roll in Gamemaster’s <br> Doom PVP!</a>
+                        </h2>
+                    </div>
+                    <div class="container_data_p_news">
+                        <p class="data-p-news" id="data-p-news-2">
+                            Feb 1, 2023 | <a href="https://www.brawlhalla.com/news/category/weekly-rotation/" class="color_font">Weekly Rotation</a>
+                        </p>
+                    </div>
+                    <div class="container_p_news">
+                        <p class="descriçao" id="descriçao-2">The Luminous Paladin Jaeyun has brought the <br>
+                            Lightbringers together on a journey to face the Infernal <br>
+                            Warlock Volkov to restore light throughout the realm! <br>
+                            Continue your epic quest in this seventh season of <br>
+                            Brawlhalla’s Battle Pass. Complete General, Daily, and <br>
+                            Weekly...
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="test_grid_container" id="article-absol-news2">
+                <a href="https://www.brawlhalla.com/news/register-today-for-brawlhalla-at-dreamhack-san-diego-2023/" id="img-3">
+                    <img src="imagens/SanDiego-2023.png" class="img_news" alt="">
+                </a>
+                <div class="container_text_news">
+                    <div id="container_h2_news-3">
+                        <h2>
+                            <a href="https://www.brawlhalla.com/news/register-today-for-brawlhalla-at-dreamhack-san-diego-2023/" class="color_font">Register Today for Brawlhalla at <br> DreamHack San Diego 2023!</a>
+                        </h2>
+                    </div>
+                        <div class="container_data_p_news">
+                            <p class="data-p-news" id="data-p-news-3">
+                                Jan 27, 2023 |<a href="https://www.brawlhalla.com/news/category/announcements/" class="color_font">Announcements, Esports</a>
+                            </p>
+                        </div>
+                    <div class="container_p_news">  
+                            <p class="descriçao" id="descriçao-3">                                        Brawlhalla Esports Year Eight kicks off with its first LAN of <br>
+                            the year at DreamHack San Diego! This tournament <br>
+                            features a total prize pool of $70,000 split evenly between <br>
+                            Singles and Doubles. You can register for DreamHack San <br>
+                            Diego today by visiting start.gg/dhsan23....
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="test_grid_container" id="article-absol-news3">
+                <a href="https://www.brawlhalla.com/news/battle-pass-season-7-valhallaquest-patch-7-03/" id="img-4">
+                    <img src="imagens/BattlePassSeason7-Patch7.03.jpg" class="img_news" alt="">
+                </a>
+                <div class="container_text_news">
+                    <div id="container_h2_news-4">
+                        <h2>
+                            <a href="https://www.brawlhalla.com/news/battle-pass-season-7-valhallaquest-patch-7-03/"class="color_font">Battle Pass Season 7: ValhallaQuest – <br> Patch 7.03</a>
+                        </h2>
+                    </div>
+                    <div class="container_data_p_news">
+                        <p class="data-p-news" id="data-p-news-4">
+                            Jan 25, 2023 |<a href="https://www.brawlhalla.com/news/category/patch-notes/" class="color_font">Patch Notes, Weekly Rotation</a>
+                        </p>
+                    </div>
+                    <div class="container_p_news">
+                        <p class="descriçao" id="descriçao-4">Heroes are called upon as dark magic spreads across the <br>
+                            land. Luminous Paladin Jaeyun brings the Lightbringers <br>
+                            together on a journey to face the Infernal Warlock Volkov <br>
+                            to restore light through the realm! Join their epic quest in <br>
+                            this seventh season of Brawlhalla’s...
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <button class="button_news" id="view-more-news-id">VIEW MORE NEWS</button>
+
+            <a href="https://www.brawlhalla.com/reviews">
+                <img src="imagens/ReviewsThumbnail_Mobile.jpg" class="img_news" id="thumbnail_mobile" alt="">
+            </a>
+            <img src="imagens/img-1.png" class="img-1-2-3" id="bottom-test-img1" alt="">
+            <img src="imagens/img-2.png" class="img-1-2-3" id="bottom-test-img2" alt="">
+            <img src="imagens/img3.png" class="img-1-2-3" id="bottom-test-img3" alt="">
+        </section> 
+
+            <!-- Trailer -->
+
+        <section id="container-trailer">
+            <div id="background_darkblue">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qgvdPJzUHgM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="VD-trailer"></iframe>
+                <img src="imagens/NaiOnlySMFLIP.png" alt="imagen-queenai" id="img-queenNai">
+                <img src="imagens/orionsized.png" alt="imagen-orion" id="img-orion">
+                <h2>FREE TO PLAY</h2>
+                <p>No Pay to Win. No Pay to Play. No hidden fees. No monthly costs. No pay walls.</p>
+                <p>And it’s going to stay that way <strong>forever</strong>.</p>
+                <a href="https://www.brawlhalla.com/play/">
+                    <button id="play_now" class="button_news">PLAY NOW</button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Comunidade -->
+
+        <section id="container-community">
+            <h1 id="join_community">
+                <span id="color-blue">JOIN THE </span>
+                <span id="color-orange">COMMUNITY</span>
+            </h1>
+            <div id="container-img-icon">
+                <a href="https://www.twitch.tv/brawlhalla"><img src="imagens/twitch_iconsbrw.png" class="icons-community" alt=""></a>
+                <a href="https://www.facebook.com/brawlhalla"><img src="imagens/fb_iconsbrw.png" class="icons-community" alt=""></a>
+                <a href="https://www.twitter.com/Brawlhalla"><img src="imagens/twitter_iconsbrw.png" class="icons-community" alt=""></a>
+                <a href="https://youtube.com/c/brawlhalla"><img src="imagens/yt_iconsbrw.png" class="icons-community" alt=""></a> 
+                <a href="https://www.instagram.com/brawlhalla/"><img src="imagens/instagram_iconsbrw.png" class="icons-community" alt=""></a>
+                <a href="https://www.twitch.tv/brawlhalla"><img src="imagens/discord_iconsbrw.png" class="icons-community" alt=""></a>
+            </div>
+            <img src="imagens/legendlineupmarch.png" alt="imagen-legends" id="imagen-legends">
+        </section>
+
+        <!-- footer -->
+
+        <footer>
+            <p id="footer-cookies">Manage cookies</p>
+            <section id="footer-margin">
+                <a href="#"><img src="imagens/footer/georgia-logo-gray.png" id="georgia-logo" alt=""></a>
+                <div id="container_plataforms">
+                    <a href="#"><img src="imagens/footer/steamlogo.png" alt="" class="img-plataforms"></a>
+                    <a href="#"><img src="imagens/footer/PS4_white.png" alt="" class="img-plataforms"></a>
+                    <a href="#"><img src="imagens/footer/Nintendo-Switch.png" alt="" class="img-plataforms"></a>
+                    <a href="#"><img src="imagens/footer/XBOX-One.png" alt="" class="img-plataforms"></a>
+                </div>
+                <div id="container_F-E">
+                    <a href=""><img src="imagens/footer/pegi5.png" alt="" class="faixa-etaria"></a>
+                    <a href=""><img src="imagens/footer/pegi_violence-Converted.jpg" alt="" class="faixa-etaria"></a>
+                    <a href=""><img src="imagens/footer/esrb2.png" alt="" class="faixa-etaria"></a>
+                </div>
+                <nav id="footer-nav">
+                    <ul id="ul-footer">
+                        <li class="li-footer"><a href="#" class="nav-footer-color">Home</a></li>
+                        <li class="li-footer">
+                            <a href="https://www.brawlhalla.com/about/" class="nav-footer-color">Game</a>
+                        </li>
+                        <li class="li-footer">
+                            <a href="https://www.brawlhalla.com/legends/" class="nav-footer-color">Legends</a>
+                        </li>
+                        <li class="li-footer">
+                            <a href="https://www.brawlhalla.com/rankings/" class="nav-footer-color">Ranking</a>
+                        </li>
+                        <li class="li-footer">
+                            <a href="https://www.brawlhalla.com/news/" class="nav-footer-color">News</a>
+                        </li> <br>                     
+                        <li class="li-footer">
+                            <a href="https://www.brawlhalla.com/support/" class="nav-footer-color">Support</a>
+                        </li>
+                        <li class="li-footer">
+                            <a href="https://www.brawlhalla.com/presskit" class="nav-footer-color">Press Kit</a>
+                        </li>
+                        <li class="li-footer">
+                            <a href="https://www.brawlhalla.com/about/" class="nav-footer-color">About</a>
+                        </li>
+                        <li class="li-footer">
+                            <a href="https://legal.ubi.com/privacypolicy/" class="nav-footer-color">Privacy Policy</a>
+                        </li>
+                        <li class="li-footer">
+                            <a href="https://legal.ubi.com/DoNotSellMyPersonalInformation/en-US" class="nav-footer-color">Do Not Sell My Personal Information</a>
+                        </li>
+                    </ul>               
+                </nav>
+                <div id="container_footer_direitos">
+                    <p id="footer-direitos">© 2023 All Rights Reserved a Pyettro</p>
+                </div>
+            </section>
+        </footer>
+    </main>
+    <div id="container_vd">
+        <video src="imagens/video-bg.mp4" muted loop autoplay id="video-bg"></video>
+    </div>
+    <script>
+        function ClickMenu(){
+            if (navheader.style.display == 'block'){
+                    navheader.style.display = 'none'
+            }   else{
+                    navheader.style.display = 'block'
+            }  
+            }
+    </script>
+</body>
+</html>
