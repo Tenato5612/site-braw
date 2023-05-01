@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 #main-header{
     font-weight: 500;
     background-color: #124c73;
-    width: 200vw;
+    width: 250vw;
     padding: 0px 20px 5px;
     z-index: 99999;
 }
