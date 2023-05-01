@@ -322,7 +322,7 @@ p#descriçao-4{
 
 button.button_news{
     display: block;
-    width: 200vw;
+    width: 235vw;
     margin: auto;
     background-color: #DD7917;
     color: white;
@@ -403,7 +403,7 @@ button#play_now:hover{
 */
 
 section#container-community{
-    width: 200vw;
+    width: 235vw;
     height: 68vh;
     background: url(../imagens/background-community.jpg);
     background-position: center center;
@@ -440,7 +440,7 @@ img.icons-community{
 
 footer{
     color: white;
-    width: 220vw;
+    width: 235vw;
     height: 70vh;
     background-color: #071826;
     padding: 10px 20px;
