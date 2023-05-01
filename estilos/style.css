@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 #main-header{
     font-weight: 500;
     background-color: #124c73;
-    width:  350vw;
+    width:  500vw;
     padding: 0px 20px 5px;
     z-index: 99999;
 }
@@ -54,8 +54,8 @@ img#icon_braw{
 }
 
 div#container_vd{
-    width: 200vw;
-    height: 100vh;
+    width: 250vw;
+    height: 120vh;
     background-size: cover;
 }
 
@@ -440,7 +440,7 @@ img.icons-community{
 
 footer{
     color: white;
-    width: 200vw;
+    width: 220vw;
     height: 70vh;
     background-color: #071826;
     padding: 10px 20px;
