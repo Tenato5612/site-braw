@@ -321,6 +321,8 @@ p#descriçao-4{
 }
 
 button.button_news{
+    width: 200vw;
+    margin: auto;
     background-color: #DD7917;
     color: white;
     border: none;
@@ -336,15 +338,19 @@ button.button_news{
     cursor: pointer;
 }
 
-#thumbnail_mobile, .img-1-2-3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#thumbnail_mobile{
+    width: 200vw;
+    margin: auto;
     position: relative;
     top: 18vh;
 }
 
+#container-img-1-2-3{
+    text-align: center;
+}
+
 .img-1-2-3{
+    position: relative;
     top: 22vh;
     padding: 15px;
 }
@@ -435,7 +441,7 @@ img.icons-community{
 
 footer{
     color: white;
-    width: 150vw;
+    width: 200vw;
     height: 70vh;
     background-color: #071826;
     padding: 10px 20px;
