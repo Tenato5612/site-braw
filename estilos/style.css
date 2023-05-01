@@ -202,8 +202,7 @@ button:hover{
 video#video-bg{
     position: absolute;
     left: -350px;
-    min-width: 100%;
-    width: 180vw;
+    width: 230vw;
     height: 500px;
 }
 
@@ -338,6 +337,9 @@ button.button_news{
 }
 
 #thumbnail_mobile, .img-1-2-3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     top: 18vh;
 }
@@ -350,7 +352,7 @@ button.button_news{
 div#background_darkblue{
     position: relative;
     top: 27vh;
-    width: 100vw;
+    width: 200vw;
     height: 625px;
     background-color: #071826;
     color: white;
@@ -397,7 +399,7 @@ button#play_now:hover{
 */
 
 section#container-community{
-    width: 100vw;
+    width: 200vw;
     height: 68vh;
     background: url(../imagens/background-community.jpg);
     background-position: center center;
@@ -433,7 +435,7 @@ img.icons-community{
 
 footer{
     color: white;
-    width: 100vw;
+    width: 150vw;
     height: 70vh;
     background-color: #071826;
     padding: 10px 20px;
