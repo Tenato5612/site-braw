@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 #main-header{
     font-weight: 500;
     background-color: #124c73;
-    width: 230vw;
+    width:  400vw;
     padding: 0px 20px 5px;
     z-index: 99999;
 }
@@ -202,7 +202,7 @@ button:hover{
 video#video-bg{
     position: absolute;
     left: -350px;
-    width: 300vw;
+    width: 500vw;
     height: 500px;
 }
 
@@ -348,8 +348,6 @@ button.button_news{
 }
 
 .img-1-2-3{
-    display: block;
-    margin: auto;
     position: relative;
     top: 22vh;
     padding: 15px;
@@ -358,7 +356,7 @@ button.button_news{
 div#background_darkblue{
     position: relative;
     top: 27vh;
-    width: 200vw;
+    width: 230vw;
     height: 625px;
     background-color: #071826;
     color: white;
@@ -405,7 +403,7 @@ button#play_now:hover{
 */
 
 section#container-community{
-    width: 210vw;
+    width: 240vw;
     height: 68vh;
     background: url(../imagens/background-community.jpg);
     background-position: center center;
