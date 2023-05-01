@@ -12,7 +12,6 @@ TV e telas extragrandes – 1201px e mais
 @media screen and (min-width: 769px) and (max-width: 1024px) { /*laptops e tela pequenas*/
     .material-symbols-outlined{
         margin-left: 5vw;
-    
     }
 
     nav#navheader{
@@ -36,7 +35,7 @@ TV e telas extragrandes – 1201px e mais
         position: absolute;
         min-width: 100vw;
         width: 180vw;
-        height: 110vh;
+        height: 115vh;
     }
 
     h1{
@@ -129,6 +128,11 @@ TV e telas extragrandes – 1201px e mais
 
     section#container_community{
         height: 75vh;
+    }
+
+    h1#join_community, div#container-img-icon{
+        position: relative;
+        top: -17vh;
     }
 
     li.li-footer {
@@ -656,7 +660,6 @@ TV e telas extragrandes – 1201px e mais
         100% {
             opacity: 100%;
         }
-        
     }
 
     #nav-game-hover:hover div#div1-test{
@@ -823,8 +826,8 @@ TV e telas extragrandes – 1201px e mais
     video#video-bg{
         position: absolute;
         min-width: 100vw;
-        width: 157vw;
-        height: 120vh;
+        width: 155vw;
+        height: 125vh;
     }
 
     section#News{
@@ -943,6 +946,7 @@ TV e telas extragrandes – 1201px e mais
     }
 
     div#background_darkblue{
+
         height: 800px;
     }
 
@@ -981,7 +985,7 @@ TV e telas extragrandes – 1201px e mais
     
     footer img#georgia-logo, div#container_plataforms, div#container_F-E{
         margin-top: 10px;
-        margin-left: 465px;
+        margin-left: 45px;
     }
 
     footer div p{

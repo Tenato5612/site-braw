@@ -9,7 +9,7 @@
 }
 
 html, body{
-    width: 850vw;
+    width: 150vw;
     height: 17vh;
     overflow-x: hidden;
     background-color: #F4F4F4;
@@ -30,7 +30,7 @@ body::-webkit-scrollbar-thumb {
 #main-header{
     font-weight: 500;
     background-color: #124c73;
-    width: 250vw;
+    width:  150vw;
     padding: 0px 20px 5px;
     z-index: 99999;
 }
@@ -54,8 +54,8 @@ img#icon_braw{
 }
 
 div#container_vd{
-    width: 250vw;
-    height: 120vh;
+    width: 200vw;
+    height: 100vh;
     background-size: cover;
 }
 
@@ -202,8 +202,8 @@ button:hover{
 video#video-bg{
     position: absolute;
     left: -350px;
-    width: 400vw;
-    height: 550px;
+    width: 200vw;
+    height: 500px;
 }
 
 section#News, section#container-trailer{
@@ -322,8 +322,6 @@ p#descriçao-4{
 
 button.button_news{
     display: block;
-    width: 235vw;
-    margin: auto;
     background-color: #DD7917;
     color: white;
     border: none;
@@ -340,9 +338,6 @@ button.button_news{
 }
 
 #thumbnail_mobile{
-    display: block;
-    width: 200vw;
-    margin: auto;
     position: relative;
     top: 18vh;
 }
@@ -356,7 +351,7 @@ button.button_news{
 div#background_darkblue{
     position: relative;
     top: 27vh;
-    width: 210vw;
+    width: 100vw;
     height: 625px;
     background-color: #071826;
     color: white;
@@ -403,7 +398,7 @@ button#play_now:hover{
 */
 
 section#container-community{
-    width: 210vw;
+    width: 100vw;
     height: 68vh;
     background: url(../imagens/background-community.jpg);
     background-position: center center;
