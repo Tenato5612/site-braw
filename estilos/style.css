@@ -356,7 +356,7 @@ button.button_news{
 div#background_darkblue{
     position: relative;
     top: 27vh;
-    width: 210%;
+    width: 210vw;
     height: 625px;
     background-color: #071826;
     color: white;
@@ -403,7 +403,7 @@ button#play_now:hover{
 */
 
 section#container-community{
-    width: 210%;
+    width: 210vw;
     height: 68vh;
     background: url(../imagens/background-community.jpg);
     background-position: center center;
@@ -440,7 +440,7 @@ img.icons-community{
 
 footer{
     color: white;
-    width: 100%;
+    width: 100vw;
     height: 70vh;
     background-color: #071826;
     padding: 10px 20px;
